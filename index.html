@@ -2,61 +2,104 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Paz</title>
     <style>
-        body,
-        ul,
-        a {
-            background: #FF4500;
-            color: beige;
-            text-align: center;
-            text-decoration: none;
-            list-style: none;
+       * {
+        margin: 0;
+        padding: 0;
+       }
+    
+    body {  
 
-
+        background-color: #132033;
+    }
+       #menu {
+        
+            height:60px;
+                
+    }
+        #cabecalho {
+            
+             margin: 10%;
+             
+             
+                           
         }
 
-
-        a,
-        ul,
-        li {
-
-            text-decoration: none;
-
+        #foto-top {
+            float: left;
+            overflow: hidden;
+            width: 450px;
+            height: 400px;
+            background-image: url("images/rodrigo.png");
+            transition: 1s;
+            
+       
         }
 
-        h1 {
+        #perfil {
+
+        width: 320px;
+            float: center;
+            overflow: hidden;
             text-align: center;
-            font-family: 'Russo One', sans-serif;
-            font-size: 40px;
-            color: aliceblue;
-            padding: 5px;
+            padding-top: 50px;
+            position: absolute;
+            margin-left: 600px;
+                        
+  
+        
+        
         }
 
-        h2 {
-            font-family: 'Russo One', sans-serif;
-            color: aliceblue;
-            text-align: center;
+        #competencias {
+          
+        }
+
+        #footer {
+            
 
         }
 
         .fotorodrigo {
+            width: 400px;
+            height: 420px;
+            overflow: hidden;
+            transition: 1s;
+                    }
 
-            width: 300px;
+                    #foto-top:hover {
 
-            border-radius: 100%;
-            text-align: center;
-        }
+                        width: 100%;
+                        
+                        
+                    }
 
-        #top-image {
+                    .name {
+                        font-size: 91px;
+                        color: rgb(142, 180, 212);
+                        font-family: sans-serif;
+                        line-height: 70px;
+                            text-align: justify;
+                            
+                        
+                        
+                        
+                    }
+                    .sobrenome {
+                        font-size: 80px;
+                        color: rgb(178, 208, 235);
+                        text-align: justify;
+                    }
+                    .descricao {
+                        color: rgb(203, 226, 247);
+                        text-align: justify;
+                    }
 
-            justify-content: center;
-            display: flex;
-
-        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,42 +110,19 @@
 </head>
 
 <body>
-    <div id="top">
-        <h1>Olá</h1>
-        <p id="top-image"><img src="images/rodrigopaz.png" alt="Foto Rodrigo Paz" class="fotorodrigo"></p>
-        <h2>Olá, me chamo <strong>Rodrigo paz</strong><br> Aluno na TRYBE</h2>
-    </div>
-        <div id="competencias">
+    <div id="menu">
+        <h2>Rodrigo</h2>
+            </div>
+ 
+    <div id="cabecalho">
+        <div id="foto-top">
+               
+        
+            </div>
+                
 
-            <ul>Competências
-                <li>1- Paciência</li>
-                <li>2- Resiliência</li>
-                <li>3- Foco</li>
-                <li>4- Força de vontade</li>
-                <li>5- Vontade de Aprender</li>
-                <a href="#top-image">
-                    <h4>Foto do Menu</h4>
-        </div>
-        </a>
-
-        <a href="https://www.cursoemvideo.com/blog/">Blog Curso em Vídeo</a>
-        <h4>Meu portfólio
-            <ul>
-                <li>Loading...</li>
-                <li>Loading...</li>
-                <li>Loading...</li>
-            </ul>
-        </h4>
-
-        <p>
-        <ul>
-            <li><a href="https://www.cursoemvideo.com/blog/">Blog Curso em Vídeo</a></li>
-            <li><a href="#">Portifólio 1 (Em Breve...)</a></li>
-            <li><a href="#">Portifólio 2 (Em Breve...)</a></li>
-            <li><a href="#">Portifólio 3 (Em Breve...)</a></li>
-        </ul>
-        </p>
-
+            <div id="perfil"><span class="name"><p>Rodrigo<br></p></span><span class="sobrenome">Paz Alves</span><br><span class="descricao">Olá me chamo Rodrigo paz alves lima, sou estudante em desenvolvimento web na TRYBE</span></p></div>
+   
 
 </body>
 
