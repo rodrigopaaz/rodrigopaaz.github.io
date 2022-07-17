@@ -15,21 +15,23 @@
     
     body {  
 
-        background-color: #132033;
+        background-color: #ffffff
     }
        #menu {
         
           
-        height:600px;
+        height:1000px;
             width: 400px;
-            background-color: aliceblue;
+            background-color: #000000;
             float: left;
                 
     }
         #cabecalho {
-            
-                          float: center;
+             float: center;
              display: inline-block;
+             border-style: none;
+             border-width: 2px;
+             overflow: hidden;
              
              
                            
@@ -41,10 +43,13 @@
             height: 400px;
             background-image: url("images/rodrigo.png");
             transition: 1s;
-            border-radius: 50%;
             background-position: 6.5% 0%;
             position: absolute;
             margin: 150px;
+            border-radius: 50%;
+            border-style: solid;
+            border-right: #3a2822;
+            border-width: 10px;
        
         }
 
@@ -56,7 +61,9 @@
             text-align: center;
             padding-top: 0px;
             position: absolute;
-            margin-left: 600px;
+            margin: 230px 0 0 670px;
+            color: aliceblue;
+            
                         
   
         
@@ -72,23 +79,20 @@
 
         }
 
-        .fotorodrigo {
-            width: 400px;
-            height: 420px;
-            overflow: hidden;
-            transition: 1s;
-                    }
+                    #cabecalho #foto-top:hover {
 
-                    #foto-top:hover {
-
-                        width: 100%;
+                        width: 90%;
+                        border-style: solid;
+                        border: #3a2822;
+                        
                         
                         
                     }
 
+                               
                     .name {
-                        font-size: 91px;
-                        color: rgb(142, 180, 212);
+                        font-size: 84px;
+                        color: rgb(0, 0, 0);
                         font-family: sans-serif;
                         line-height: 70px;
                             text-align: justify;
@@ -99,11 +103,11 @@
                     }
                     .sobrenome {
                         font-size: 80px;
-                        color: rgb(178, 208, 235);
+                        color: rgb(0, 0, 0);
                         text-align: justify;
                     }
                     .descricao {
-                        color: rgb(203, 226, 247);
+                        color: rgb(0, 0, 0);
                         text-align: justify;
                     }
 
@@ -121,7 +125,7 @@
  
     <div id="cabecalho">
         <div id="menu">
-            <h2>Rodrigo</h2>
+            <h2></h2>
                 </div>
         <div id="foto-top">
                
@@ -129,7 +133,7 @@
             </div>
                 
 
-            <div id="perfil"><span class="name"><p>Rodrigo<br></p></span><span class="sobrenome">Paz Alves</span><br><span class="descricao">Olá me chamo Rodrigo paz alves lima, sou estudante em desenvolvimento web na TRYBE</span></p></div>
+            <div id="perfil"><span class="name"><p><strong>Rodrigo</strong><br></p></span><span class="sobrenome">Paz Alves</span><br><span class="descricao">Olá me chamo Rodrigo paz alves lima, sou estudante em desenvolvimento web na TRYBE</span></p></div>
    
 
 </body>
