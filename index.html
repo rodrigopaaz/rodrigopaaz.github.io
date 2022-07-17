@@ -43,12 +43,28 @@
     }
 
     #menu-links {
-            float: right;
+            float: center;
             justify-content: space-between;
+            align-items: center;
             height: 100%;
             display: flex;
-            width: 500px;
+            width: 800px;
+            margin-left: 30px;
+
             
+            
+    }
+
+    a{ 
+        transition: 1s;
+        padding: 10px;   
+    }
+
+    a:hover {
+            
+            background-color: rgb(0, 0,0, 0.5);
+            padding: 10px;    
+        
     }
         #cabecalho {
              float: center;
@@ -157,6 +173,12 @@ color: #ffffff;
                     #text-hiden .descricao  {
 color: #ffffff;
                     }   
+
+                    .practice {
+                        width: 700px;
+                        float:right;
+                        margin: 105px 0 0 700px;
+                    }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -168,16 +190,17 @@ color: #ffffff;
 
 <body>
    
- <div id="top-menu"> <div id="menu-links"><ul>
+ <div id="top-menu"> <div id="menu-links">
 <a href="#">Home</a>
 <a href="#">Competências</a>
 <a href="#">Projetos</a>
 <a href="#">Formação</a>
- </ul></div></div>
+ </div></div>
     <div id="cabecalho">
         <div id="menu">
             <h2></h2>
                 </div>
+                <img src="images/Practice-makes-progress.jpg" alt="Practice-makes-progress" class="practice">
         <div id="foto-top">
             <div id="text-hiden">
               <span class="name"><strong>Rodrigo</strong><br></span><span class="sobrenome">Paz Alves</span><br><span class="descricao">Olá me chamo Rodrigo paz alves lima, sou estudante em desenvolvimento web na TRYBE</span></p></p>      
