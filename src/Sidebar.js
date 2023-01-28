@@ -10,7 +10,7 @@ export default function Sidebar() {
   const instagram = 'https://www.instagram.com/rodrigopazlimas/'
   const github = 'https://github.com/rodrigopaaz'
   const {toggleMenu} = useContext(AppContext)
-  const element = toggleMenu ? '0' : '70%';
+  const element = toggleMenu ? '0' : '100%';
   return (
     <div className='div__side__bar'
     style={{width: element}}

@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react'
 import AppContext from './Context'
 
 export default function AppProvider({children}) {
-    const [toggleMenu, setToggleMenu] = useState(false);
+    const [toggleMenu, setToggleMenu] = useState(true);
     const data = useMemo(
         () => ({ toggleMenu, setToggleMenu }),
         [toggleMenu, setToggleMenu],
