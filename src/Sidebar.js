@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './sideBar.css';
 import { AiOutlineInstagram } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiOutlineGithub } from 'react-icons/ai'
+import AppContext from './context/Context';
 
 export default function Sidebar() {
   const linkedin = 'https://www.linkedin.com/in/rodrigo-paz-dev/'
   const instagram = 'https://www.instagram.com/rodrigopazlimas/'
   const github = 'https://github.com/rodrigopaaz'
-
+  const {toggleMenu} = useContext(AppContext)
+  const element = toggleMenu ? '0' : '70%';
   return (
-    <div className='div__side__bar'>
+    <div className='div__side__bar'
+    style={{width: element}}
+    >
         <button
         type='button'
         >
