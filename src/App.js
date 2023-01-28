@@ -1,19 +1,14 @@
-import video from './video/video.mp4'
+import { Route, Switch} from 'react-router-dom';
 import './App.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div className='div_video'>
-      <h1>Rodrigo Paz</h1>
-    <video
-    className='main_video' 
-    autoPlay
-    muted
-    loop
-    src={video}
-    type="video/mp4"
-    ></video>
-  </div>
+    <div className='App'>
+      <Switch>
+        <Route exac path='/' component={Home} />
+      </Switch>
+      </div>
   );
 }
 

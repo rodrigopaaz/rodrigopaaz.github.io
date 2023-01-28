@@ -1,0 +1,11 @@
+.div__content{
+    display: flex;
+    width: 100vw;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.social__icon{
+    width: 25px;
+    height: 25px;
+}
