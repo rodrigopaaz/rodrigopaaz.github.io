@@ -3,7 +3,7 @@ body{
   padding: 0;
   background-color: rgb(29,29,29);
 }
-
+@media only screen and (min-width: 451px){
 .main__div{
   display: flex;
   justify-content: center;
@@ -26,6 +26,7 @@ body{
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  z-index: 1;
 }
 
 h1 {
@@ -43,9 +44,92 @@ h3 {
   margin-left: 50px;
 }
 
-.div__title .hamburguer-react{
+.div_hamburguer{
   color: aliceblue;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 50px;
+}
+
+.button__contato{
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 2px solid teal;
+  color: teal;
+  margin-left: 50px;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+}
+}
+
+@media only screen and (max-width: 450px) and (min-width: 100px){
+
+  .main__div{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .div__landing{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .div__title{
+    display: flex;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+  }
+  
+  h3 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+  }
+  
+  .div_hamburguer{
+    color: aliceblue;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+  }
+  
+  .button__contato{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid teal;
+    color: teal;
+    margin-left: 20px;
+  }
+  
+  img{
+    width: 500px;
+    height: 500px;
+  }
+
 }
