@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiOutlineGithub } from 'react-icons/ai'
 import AppContext from './context/Context';
+import { useHistory } from 'react-router-dom';
 
 export default function Sidebar() {
   const linkedin = 'https://www.linkedin.com/in/rodrigo-paz-dev/'
@@ -11,12 +12,14 @@ export default function Sidebar() {
   const github = 'https://github.com/rodrigopaaz'
   const {toggleMenu} = useContext(AppContext)
   const element = toggleMenu ? '0' : '100%';
+  const history = useHistory();
   return (
     <div className='div__side__bar'
     style={{width: element}}
     >
         <button
         type='button'
+        onClick={()=>history.push('/portifolio')}
         >
             Portifólio</button>
         <button
