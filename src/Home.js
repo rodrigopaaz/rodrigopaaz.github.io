@@ -1,8 +1,9 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import Content from './Content';
 import Sidebar from './Sidebar';
 import { Divide as Hamburger } from 'hamburger-react'
 import AppContext from './context/Context';
+import Stacks from './Stacks';
 
 export default function Home() {
   const {toggleMenu, setToggleMenu} = useContext(AppContext)
@@ -12,6 +13,7 @@ export default function Home() {
     <div className='main__div'>
     <Sidebar />
     <div className='div__landing'>
+  <div className='div__main__content'>
   <div className='div__title'>
     <button 
     className='div_hamburguer'
@@ -26,6 +28,9 @@ export default function Home() {
   type='button'
   onClick={()=> window.location.replace(whatssapp)}
   >WhatsApp</button>
+  </div>
+  <div className='div__stacks'>
+  </div>
   </div>
     <Content />
   </div>

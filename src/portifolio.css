@@ -2,20 +2,66 @@
 .div__portifolio{
     display: flex;
     height: 100vh;
-    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
     flex-basis: 10%;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(24,24,24);
+    overflow-y: scroll;
 
 }
 
-a {
+.div_portifolio a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 70px;
 }
 
+.div__portifolio button{
+    position: absolute;
+    bottom: 0px;
+}
+
+.div__projeto{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 10px;
+    flex-basis: 100%;
+}
+
+.div__projeto img{
+    height: 400px;
+    border-radius: 100%;
+}
+
+.carousel{
+    top: 0;
+    height: 200;
+    width: 50%;
+    }
+    .carousel a{
+        font-size: 50px;
+        color: rgb(140, 148, 148) !important;
+        text-shadow: 15px 15px 50px black;
+    }
+  
+    .carrousel-images img{
+      width: 60px;
+      height: 60px;
+    }
+  
+    .w-100 {
+      width: 100vw !important;
+      height: 80vh;  }
+
+}
+
+.carousel a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
 }
 
 
@@ -36,4 +82,15 @@ a {
     color: white;
     font-size: 30px;
 }
-}   
+
+.carousel{
+    top: 0;
+    height: 200;
+    width: 50%;
+    } 
+  
+    .w-100 {
+      width: 100vw !important;
+      height: 60vh;  }
+
+}

@@ -1,23 +1,45 @@
 @media only screen and (min-width: 451px){
 .div__side__bar{
     display: flex;
-    height: 100vh;
-    flex-direction: column;
-    flex-basis: 10%;
+    height: 200px;
+    width: 100% !important;
+    position: absolute;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(24,24,24);
+    background-color: rgba(24,24,24, 0.5);
+    z-index: 2;
+}
+
+.div__side__bar h4{
+    display: flex;
+    flex-basis: 40%;
+    font-size: 100px;
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link__sidebar{
+    transition-duration: 1s;
+}
+
+.link__sidebar:hover{
+    color: rgb(3,150,118) ;
+    text-shadow: 5px 5px 50px  white;
+}
+
+.div__side__bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .div__side__bar button{    
 width: 100%;    
 background-color: transparent;
 border: none;
-font-size: 20px;
+font-size: 50px;
 color: azure;
-margin-bottom: 20px;
-border-bottom: 2px solid gray;
 }
+
 }
 
 .div__social__media{
@@ -48,6 +70,12 @@ border-bottom: 2px solid gray;
     color: azure;
     margin-bottom: 20px;
     border-bottom: 2px solid gray;
+    }
+
+    .div__side__bar a{
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
     }
     
     .div__social__media{
