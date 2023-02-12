@@ -2,7 +2,7 @@ import React from 'react'
 import objectRepo from './Repositories'
 import './portifolio.css'
 import { useHistory } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.css';
+/* import 'bootstrap/dist/css/bootstrap.css'; */
 import  Carousel  from 'react-bootstrap/Carousel';
 
 export default function Portifolio() {
