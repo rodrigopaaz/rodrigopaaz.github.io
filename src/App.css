@@ -109,7 +109,7 @@
 }
 
 
-@media only screen and (min-width: 451px) and (max-width: 2500px){
+@media only screen and (min-width: 451px) and (max-width: 2600){
   body{
     margin: 0;
     padding: 0;
@@ -223,7 +223,7 @@
 }
 
 
-@media only screen and (min-width: 2501){
+@media only screen and (min-width: 2601){
   body{
     margin: 0;
     padding: 0;
