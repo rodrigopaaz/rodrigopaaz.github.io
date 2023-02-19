@@ -18,7 +18,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .link__sidebar{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .link__sidebar:hover{
@@ -46,6 +46,25 @@ color: azure;
     display: flex;
     color: aliceblue;
 }
+
+.div__social__media .social__icon{
+    display: flex;
+    color: aliceblue;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.div__social__media .social__icon:hover{
+    display: flex;
+    color: aliceblue;
+    box-shadow: 5px 5px 50px red;
+    width: 50px;
+    height: 50px;
+}
+
 
 @media only screen and (max-width: 450px) and (min-width: 100px){
     .div__side__bar{

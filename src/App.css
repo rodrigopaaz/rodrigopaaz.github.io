@@ -39,33 +39,117 @@
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    line-height: 30px;
+    line-height: 40px;
     margin-left: 20px;
     margin-bottom: 5px
   }
   
+  .div__main__content h1:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 80px;
+    animation: 
+      typing1 0.5s steps(40, end)backwards,
+      blink-caret1 .75s forwards 0.1s;
+  }
+  
+  @keyframes typing1 {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret1 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+
+  .div__main__content h1:nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 220px;
+    animation: 
+    typing2 1s steps(40, end) 1s backwards,
+    blink-caret2 .75s forwards 1.8s;
+  }
+  
+  @keyframes typing2 {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret2 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+  .div__main__content h1:nth-child(4) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 330px;
+    animation: 
+    typing3 1s steps(40, end) 2.5s backwards,
+    blink-caret3 .75s forwards 3s;
+  }
+  
+  @keyframes typing3 {
+     0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+      animation-delay: 2s;
+    } 
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret3 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+  
   .div__main__content h3 {
     color: gray;
+    font-size: 20px;
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    border-right: .15em solid orange; 
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
     white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .15em; 
+    width: 270px;
     animation: 
-      typing 0.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      typing 1s steps(30, end) 4.5s backwards,
+      blink-caret .75s step-end infinite alternate;
   }
   
   @keyframes typing {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
     from { width: 0 }
-    to { width: 15% }
   }
   
-  @keyframes blink-caret {
+   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: rgb(255, 255, 255); }
   }
+  
   
   
   .div_hamburguer{
@@ -152,9 +236,88 @@
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 120px;
+  font-weight: 900;
   line-height: 140px;
   margin-left: 200px;
   margin-bottom: -10px;
+}
+
+.div__main__content h1:nth-child(2) {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap;
+  width: 300px;
+  animation: 
+    typing1 0.5s steps(40, end)backwards,
+    blink-caret1 .75s forwards 0.1s;
+}
+
+@keyframes typing1 {
+  0%{
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  from { width: 0 }
+}
+
+ @keyframes blink-caret1 {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+.div__main__content h1:nth-child(3) {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap;
+  width: 800px;
+  animation: 
+  typing2 1s steps(40, end) 1s backwards,
+  blink-caret2 .75s forwards 1.8s;
+}
+
+@keyframes typing2 {
+  0%{
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  from { width: 0 }
+}
+
+ @keyframes blink-caret2 {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+.div__main__content h1:nth-child(4) {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden; 
+  border-right: .15em solid rgb(255, 255, 255); 
+  white-space: nowrap;
+  width: 1200px;
+  animation: 
+  typing3 1s steps(40, end) 2.5s backwards,
+  blink-caret3 .75s forwards 3s;
+}
+
+@keyframes typing3 {
+   0%{
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+    animation-delay: 2s;
+  } 
+  from { width: 0 }
+}
+
+ @keyframes blink-caret3 {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
 }
 
 .div__main__content h3 {
@@ -162,21 +325,27 @@
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden; 
   border-right: .15em solid rgb(255, 255, 255); 
-  white-space: nowrap; 
+  white-space: nowrap;
+  width: 380px;
   animation: 
-    typing 1s steps(40, end),
-    blink-caret .75s infinite;
+    typing 1s steps(30, end) 4.5s backwards,
+    blink-caret .75s step-end infinite alternate;
 }
 
 @keyframes typing {
+  0%{
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
   from { width: 0 }
-  to { width: 270px }
 }
 
-@keyframes blink-caret {
+ @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(255, 255, 255); }
 }
+
 
 .div__main__content h3 {
   color: rgb(185, 185, 185);
@@ -261,10 +430,89 @@
   .div__main__content h1 {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 120px;
+    font-size: 180px;
+    font-weight: 900;
     line-height: 200px;
     margin-left: 100px;
     margin-bottom: -10px;
+  }
+
+  .div__main__content h1:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 400px;
+    animation: 
+      typing1 0.5s steps(40, end)backwards,
+      blink-caret1 .75s forwards 0.1s;
+  }
+  
+  @keyframes typing1 {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret1 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+
+  .div__main__content h1:nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 1200px;
+    animation: 
+    typing2 1s steps(40, end) 1s backwards,
+    blink-caret2 .75s forwards 1.8s;
+  }
+  
+  @keyframes typing2 {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret2 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
+  .div__main__content h1:nth-child(4) {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+    border-right: .15em solid rgb(255, 255, 255); 
+    white-space: nowrap;
+    width: 1800px;
+    animation: 
+    typing3 1s steps(40, end) 2.5s backwards,
+    blink-caret3 .75s forwards 3s;
+  }
+  
+  @keyframes typing3 {
+     0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+      animation-delay: 2s;
+    } 
+    from { width: 0 }
+  }
+  
+   @keyframes blink-caret3 {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
   }
   
   .div__main__content h3 {
@@ -273,14 +521,19 @@
     overflow: hidden; 
     border-right: .15em solid rgb(255, 255, 255); 
     white-space: nowrap;
+    width: 380px;
     animation: 
-      typing 1s steps(40, end),
-      blink-caret .75s infinite;
+      typing 1s steps(30, end) 4.5s backwards,
+      blink-caret .75s step-end infinite alternate;
   }
   
   @keyframes typing {
+    0%{
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
     from { width: 0 }
-    to { width: 270px }
   }
   
    @keyframes blink-caret {

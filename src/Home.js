@@ -3,7 +3,6 @@ import Content from './Content';
 import Sidebar from './Sidebar';
 import { Divide as Hamburger } from 'hamburger-react'
 import AppContext from './context/Context';
-import Stacks from './Stacks';
 
 export default function Home() {
   const {toggleMenu, setToggleMenu} = useContext(AppContext)
@@ -21,7 +20,9 @@ export default function Home() {
     >
     <Hamburger/>
     </button>
-  <h1>Olá, <br /> Sou Rodrigo, <br /> Desenvolvedor Web</h1>
+  <h1>Olá,</h1>
+  <h1>Sou Rodrigo, </h1>
+  <h1>Desenvolvedor Web</h1>
   <h3>Front End Developer - Junior</h3>
   <button
   className='button__contato'
