@@ -52,7 +52,7 @@
     white-space: nowrap;
     width: 80px;
     animation: 
-      typing1 0.5s steps(40, end)backwards,
+      typing1 0.5s steps(40, end)0.3s backwards,
       blink-caret1 .75s forwards 0.1s;
   }
   
