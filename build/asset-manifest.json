@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e58a453e.css",
-    "main.js": "/static/js/main.94b87f81.js",
+    "main.css": "/static/css/main.f35aff8d.css",
+    "main.js": "/static/js/main.78cd0017.js",
     "static/js/787.35478919.chunk.js": "/static/js/787.35478919.chunk.js",
     "static/media/tryunfo-img.png": "/static/media/tryunfo-img.0d4179adf7238752386b.png",
     "static/media/recipes-app-img.png": "/static/media/recipes-app-img.7356a3006416fe0e5bde.png",
@@ -9,12 +9,12 @@
     "static/media/trybe-wallet-img.png": "/static/media/trybe-wallet-img.d68d75ab6d62c131f8f0.png",
     "static/media/trybe-tunes-img.png": "/static/media/trybe-tunes-img.2003dd46de08385f5a5b.png",
     "index.html": "/index.html",
-    "main.e58a453e.css.map": "/static/css/main.e58a453e.css.map",
-    "main.94b87f81.js.map": "/static/js/main.94b87f81.js.map",
+    "main.f35aff8d.css.map": "/static/css/main.f35aff8d.css.map",
+    "main.78cd0017.js.map": "/static/js/main.78cd0017.js.map",
     "787.35478919.chunk.js.map": "/static/js/787.35478919.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e58a453e.css",
-    "static/js/main.94b87f81.js"
+    "static/css/main.f35aff8d.css",
+    "static/js/main.78cd0017.js"
   ]
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import '../src/styles/App.css';
 import { Switch, Route } from 'react-router-dom';
-import Home from './Home';
-import NotFound from './NotFound';
-import Portifolio from './Portifolio';
+import Home from './pages/Home';
+import NotFound from './components/NotFound';
+import Portifolio from './pages/Portifolio';
 
 function App() {
   return (

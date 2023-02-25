@@ -1,0 +1,24 @@
+.div__content{
+    display: flex;
+    background-color: rgb(24,24,24);
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div__content h1 {
+    text-align: center;
+    margin: 100px;
+    z-index: 1;
+}
+
+.div__content h4 {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.social__icon{
+    width: 25px;
+    height: 25px;
+}
