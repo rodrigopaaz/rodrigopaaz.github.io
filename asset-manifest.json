@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6496036c.css",
+    "main.css": "/static/css/main.3b93dae9.css",
     "main.js": "/static/js/main.a3cb81ea.js",
     "static/js/787.35478919.chunk.js": "/static/js/787.35478919.chunk.js",
     "static/media/tryunfo-img.png": "/static/media/tryunfo-img.0d4179adf7238752386b.png",
@@ -9,12 +9,12 @@
     "static/media/trybe-wallet-img.png": "/static/media/trybe-wallet-img.d68d75ab6d62c131f8f0.png",
     "static/media/trybe-tunes-img.png": "/static/media/trybe-tunes-img.2003dd46de08385f5a5b.png",
     "index.html": "/index.html",
-    "main.6496036c.css.map": "/static/css/main.6496036c.css.map",
+    "main.3b93dae9.css.map": "/static/css/main.3b93dae9.css.map",
     "main.a3cb81ea.js.map": "/static/js/main.a3cb81ea.js.map",
     "787.35478919.chunk.js.map": "/static/js/787.35478919.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6496036c.css",
+    "static/css/main.3b93dae9.css",
     "static/js/main.a3cb81ea.js"
   ]
 }
