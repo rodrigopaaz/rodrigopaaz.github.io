@@ -103,8 +103,8 @@
 .div__card{
     display: flex;
     justify-content: center;
-    min-width: 830px;
-    max-width: 830px;
+    min-width: 550px;
+    max-width: 550px;
     height: 900px;
     margin: -10px;
 }
@@ -153,7 +153,7 @@
     flex-wrap: wrap;
     color: rgb(245, 245, 245);
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 1px 1px black;
     position: absolute;   
 }

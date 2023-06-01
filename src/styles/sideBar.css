@@ -1,45 +1,100 @@
 @media only screen and (min-width: 451px){
+.div__side__bar{
+    display: flex;
+    height: 70px;
+    width: 100% !important;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(24,24,24, 0.5);
+    z-index: 2;
+}
+
+.div__side__bar h4{
+    display: flex;
+    flex-basis: 40%;
+    font-size: 30px;
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link__sidebar{
+    transition-duration: 0.5s;
+}
+
+.link__sidebar:hover{
+    color: rgb(3,150,118) ;
+    text-shadow: 5px 5px 50px  white;
+}
+
+.div__side__bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.div__side__bar button{    
+width: 100%;    
+background-color: transparent;
+border: none;
+font-size: 50px;
+color: azure;
+}
+
+}
+
+.div__social__media{
+    display: flex;
+    color: aliceblue;
+}
+
+.div__social__media .social__icon{
+    display: flex;
+    color: aliceblue;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.div__social__media .social__icon:hover{
+    display: flex;
+    color: aliceblue;
+    box-shadow: 5px 5px 50px red;
+    width: 50px;
+    height: 50px;
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 100px){
     .div__side__bar{
         display: flex;
-        height: 100px;
-        width: 100% !important;
-        position: fixed;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 100vh;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: rgba(24,24,24, 0.5);
-        z-index: 2;
+        background-color: rgb(24,24,24);
+        transition: 0.5s;
+        overflow: hidden;
     }
     
-    .div__side__bar h4{
-        display: flex;
-        flex-basis: 40%;
-        font-size: 70px;
-        color: orangered;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .link__sidebar{
-        transition-duration: 0.5s;
-    }
-    
-    .link__sidebar:hover{
-        color: rgb(3,150,118) ;
-        text-shadow: 5px 5px 50px  white;
-    }
-    
-    .div__side__bar a{
-        color: white;
-        text-decoration: none;
-        font-size: 25px;
-    }
-    
-    .div__side__bar button{    
+    .div__side__bar button{
     width: 100%;    
     background-color: transparent;
     border: none;
-    font-size: 50px;
+    font-size: 20px;
     color: azure;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
     }
-    
+
+    .div__side__bar a{
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
     }
     
     .div__social__media{
@@ -47,60 +102,4 @@
         color: aliceblue;
     }
     
-    .div__social__media .social__icon{
-        display: flex;
-        color: aliceblue;
-        background-color: transparent;
-        width: 40px;
-        height: 40px;
-        border-radius: 10px;
-        transition-duration: 0.3s;
-    }
-    
-    .div__social__media .social__icon:hover{
-        display: flex;
-        color: aliceblue;
-        box-shadow: 5px 5px 50px red;
-        width: 50px;
-        height: 50px;
-    }
-    
-    
-    @media only screen and (max-width: 450px) and (min-width: 100px){
-        .div__side__bar{
-            display: flex;
-            width: 100%;
-            position: absolute;
-            left: 0;
-            height: 100vh;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            background-color: rgb(24,24,24);
-            transition: 0.5s;
-            overflow: hidden;
-        }
-        
-        .div__side__bar button{
-        width: 100%;    
-        background-color: transparent;
-        border: none;
-        font-size: 20px;
-        color: azure;
-        margin-bottom: 20px;
-        border-bottom: 2px solid gray;
-        }
-    
-        .div__side__bar a{
-            color: white;
-            text-decoration: none;
-            font-size: 35px;
-        }
-        
-        .div__social__media{
-            display: flex;
-            color: aliceblue;
-        }
-        
-    }
-    
+}
