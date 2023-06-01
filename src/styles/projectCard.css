@@ -1,41 +1,336 @@
+@media only screen and (max-width: 451px){
+    .div__card{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        height: 400px;
+        margin: -10px;
+        margin: 10px;
+    }
+    
+    
+    .div__card .div__card__secondary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 300px;
+        border-radius: 25px;
+        transition-duration: 0.3s;
+        background-color: rgb(22, 21, 21);
+        border-top: 10px solid rgb(0, 119, 255);
+        box-shadow: 2px 5px 5px white;
+    }
+    
+    .div__card .div__card__secondary img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        filter: opacity(30%);
+        transition-duration: 0.3s;
+    }
+    
+    .div__card .div__card__secondary:hover{
+        filter: opacity(100%) ;
+        z-index: 2;
+        width: 100%;
+        height: 750px;
+    }
+    
+    .div__card .div__card__secondary img:hover{
+        z-index: 2;
+        filter: opacity(100%);
+    }
+    
+    .div__card .card__description{
+        color: rgb(245, 245, 245);
+        font-weight: 900;
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+        position: absolute;   
+    }
+    
+    .div__card .div__card__secondary .div__redirect{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 119, 255);;
+        position: absolute;
+        align-self: baseline;
+        width: 400px;
+        height: 80px;
+        z-index: 4;
+        overflow: hidden;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        transition-duration: 0.3s;
+    }
+    
+    .div__card .div__stacks{
+        position: absolute;
+        color: rgb(0, 183, 255);
+        margin-top: 150px;
+    }
+    
+    .stack{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+    
+    .div__redirect button{
+        display: flex;
+        background-color: transparent;
+        border: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    
+    .div__redirect p{
+        display: none;
+    }
+
+    .div__redirect{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+
+@media only screen and (min-width: 451px) and (max-width: 2599px){
 .div__card{
-    z-index: 1;
     display: flex;
-    width: 1000px;
-    position: relative;
-    margin: 25px;
-    filter: opacity(60%) ;
-    background-color: rgb(22, 21, 21);
-    border-radius: 20px;
-    border-top: 10px solid rgb(233, 200, 15);
-    box-shadow: 2px 2px 30px white;
+    justify-content: center;
+    min-width: 830px;
+    max-width: 830px;
+    height: 900px;
+    margin: -10px;
 }
 
-.div__card__desc{
-    display: flex;
-    flex-direction: column;
-}
 
-.div__card__desc h4{
+.div__card .div__card__secondary{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 145, 0);
-    height: 60px;
-    text-align: center;
-}
-
-.div__card:hover{
-    filter: opacity(100%) ;
-}
-
-.div__card img{
+    overflow: hidden;
     width: 100%;
-    height: 600px;
-    border-radius: 10px;
+    height: 100vh;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+    background-color: rgb(22, 21, 21);
+    border-top: 10px solid rgb(0, 119, 255);
+    box-shadow: 2px 5px 5px white;
 }
 
-.div__card div:nth-child(1){
-    display: flex;
-    flex-basis: 100%;
+.div__card .div__card__secondary img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: opacity(30%);
+    transition-duration: 0.3s;
 }
+
+.div__card .div__card__secondary:hover{
+    filter: opacity(100%) ;
+    z-index: 2;
+    width: 100%;
+    height: 750px;
+}
+
+.div__card .div__card__secondary img:hover{
+    z-index: 2;
+    filter: opacity(100%);
+}
+
+.div__card .card__description{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(245, 245, 245);
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    position: absolute;   
+}
+
+.div__card .div__card__secondary .div__redirect{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 119, 255);;
+    position: absolute;
+    align-self: baseline;
+    width: 400px;
+    height: 80px;
+    z-index: 4;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.div__card .div__stacks{
+    position: absolute;
+    display: flex;
+    color: rgb(0, 183, 255);
+    margin-top: 150px;
+}
+
+.stack{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.div__redirect button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.div__redirect p{
+    display: none;
+}
+
+.div__redirect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.div__redirect button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+}
+
+@media only screen and (min-width: 2600px){
+    .div__card{
+        display: flex;
+        justify-content: center;
+        min-width: 1200px;
+        max-width: 1200px;
+        height: 100vh;
+        margin: -10px;
+    }
+    
+    
+    .div__card .div__card__secondary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 1000px;
+        border-radius: 25px;
+        transition-duration: 0.3s;
+        background-color: rgb(22, 21, 21);
+        border-top: 10px solid rgb(0, 119, 255);
+        box-shadow: 2px 5px 5px white;
+    }
+    
+    .div__card .div__card__secondary img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        filter: opacity(30%);
+        transition-duration: 0.3s;
+    }
+    
+    .div__card .div__card__secondary:hover{
+        filter: opacity(100%) ;
+        z-index: 2;
+        width: 100%;
+        height: 750px;
+    }
+    
+    .div__card .div__card__secondary img:hover{
+        z-index: 2;
+        filter: opacity(100%);
+    }
+    
+    .div__card .card__description{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        color: rgb(245, 245, 245);
+        font-weight: 900;
+        font-size: 50px;
+        text-shadow: 1px 1px black;
+        position: absolute;   
+    }
+    
+    .div__card .div__card__secondary .div__redirect{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(0, 119, 255);;
+        position: absolute;
+        align-self: baseline;
+        width: 400px;
+        height: 80px;
+        z-index: 4;
+        overflow: hidden;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        transition-duration: 0.3s;
+    }
+    
+    .div__card .div__stacks{
+        position: absolute;
+        display: flex;
+        color: rgb(0, 183, 255);
+        margin-top: 150px;
+    }
+    
+    .stack{
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    
+    .div__redirect button{
+        display: flex;
+        background-color: transparent;
+        border: none;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    
+    
+    .div__redirect p{
+        display: none;
+    }
+    
+    .div__redirect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+    }
+    
+    .div__redirect button{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        font-weight: 500;
+    }
+    
+    }

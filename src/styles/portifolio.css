@@ -1,26 +1,114 @@
-@media only screen and (min-width: 451px){
+@media only screen and (max-width: 450px) and (min-width: 100px){
+
+    .main__div__portifolio h4{
+        font-size: 2em;
+        margin-bottom: 100px;
+    }
+    
+    .div__portifolio{
+        display: flex;
+        width: 100vw;
+        flex-basis: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(24,24,24);
+        flex-wrap: wrap;
+    }
+
+    .div__portifolio h6{
+        font-size: 50px;
+        height: 100px;
+        text-shadow: 1px 1px 50px rgb(41, 106, 192);
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.carousel{
+    top: 0;
+    height: 200;
+    width: 50%;
+    } 
+  
+    .w-100 {
+      width: 100vw !important;
+      height: 60vh;  }
+
+      .div__portifolio .modules__table{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    
+    .modules__table button{
+        background-color:rgb(22,40,50);
+        color: white;
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 2599px){
+
+    .main__div__portifolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+    }
+    
+
+    .div__cards__portifolio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100vh;
+        margin-bottom: 50px;
+    }
+
+
+    .main__div__portifolio h4{
+        font-size: 4em;
+        text-align: center;
+        text-shadow: 10px 1px 10px gray;
+    }
+
 .div__portifolio{
     display: flex;
-    height: 100vh;
+    flex-direction: column;
     width: 100%;
-    flex-wrap: wrap;
-    flex-basis: 10%;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(24,24,24);
-    overflow-y: scroll;
+}
 
+.main__div__portifolio h4:first-child{
+    align-self: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.div__portifolio h6{
+    font-size: 50px;
 }
 
 .div_portifolio a {
     text-decoration: none;
     color: white;
     font-size: 70px;
-}
-
-.div__portifolio button{
-    position: absolute;
-    bottom: 0px;
 }
 
 .div__projeto{
@@ -64,18 +152,63 @@
     font-weight: 700;
 }
 
+.div__portifolio .modules__table{
+    width: 60%;
+    margin-bottom: 50px;
+}
 
-@media only screen and (max-width: 450px) and (min-width: 100px){
+.modules__table button{
+    background-color:transparent;
+    text-decoration: underline;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media only screen and (min-width: 2600px){
     .div__portifolio{
         display: flex;
-        height: 100vh;
         flex-direction: column;
-        flex-basis: 10%;
+        width: 100%;
         justify-content: space-evenly;
         align-items: center;
         background-color: rgb(24,24,24);
     }
 
+    .div__portifolio h6{
+        font-size: 35px;
+        height: 100px;
+        text-shadow: 1px 1px 50px rgb(41, 106, 192);
+    }
+
+    .div__cards__portifolio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100vh;
+    }
+
+    .main__div__portifolio h4{
+        font-size: 4em;
+        text-align: center;
+        text-shadow: 10px 1px 10px gray;
+    }
+
+
+    .main__div__portifolio h4:first-child{
+        align-self: center;
+        align-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        border-radius: 20px;
+    }
 
 a {
     text-decoration: none;
@@ -83,14 +216,19 @@ a {
     font-size: 30px;
 }
 
-.carousel{
-    top: 0;
-    height: 200;
-    width: 50%;
-    } 
-  
-    .w-100 {
-      width: 100vw !important;
-      height: 60vh;  }
+.div__portifolio .modules__table{
+    width: 60%;
+    margin-bottom: 50px;
+}
 
+.modules__table button{
+    background-color:transparent;
+    text-decoration: underline;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
 }
