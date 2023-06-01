@@ -9,7 +9,7 @@ export default function Home() {
   const 
   whatssapp = 'https://api.whatsapp.com/send?phone=5521975297102&text=Ol%C3%A1,%20seja%20bem%20vindo!'
   return (
-    <div className='main__div'>
+    <div className='main__div' id='home'>
     <Sidebar />
     <div className='div__landing'>
   <div className='div__main__content'>
@@ -35,6 +35,8 @@ export default function Home() {
   </div>
     <Content />
   </div>
+  <section class="scroll-down">
+</section>
     </div>
 );
 }
