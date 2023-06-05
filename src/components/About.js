@@ -11,14 +11,14 @@ export default function About() {
         <div className='div__description'>
         <h5>Sobre Mim</h5>
         <p>
-        Meu nome é Rodrigo tenho 34 anos. sou de natural de Duque de caxias no RJ,  
-        atualmente moro em búzios no rio de janeiro. Vivo com minha esposa e nossos dois filhos. 
-        Sou formado em administração de empresas, me formei na área administrativa pois empreendi na área comercial, 
-        em um mercado de pegueno porte, por cerca de 10 anos.
+        Desenvolvedor full-stack apaixonado por tecnologia, 
+        com habilidades em React, Hooks, Redux, RTL, Jest, Node.js, 
+        MySQL, arquitetura MSC, Docker, Express, MongoDB e TypeScript. Experiência em realizar 
+        testes unitários e de integração para garantir a qualidade do código. 
+        Familiarizado com tecnologias ágeis, como Kanban e Scrum. 
         <br />
         <br />
-        Em 2022 iniciei meus estudos na Trybe, escola de tecnologia que ensina por projetos. 
-        Neste curso já desenvolvi 26 projetos.
+        Interessado em aprender e aplicar novas tecnologias, como JAVA e C#. Buscando oportunidades para aplicar meus conhecimentos e contribuir para projetos significativos.
         </p>
         </div>
     </div>

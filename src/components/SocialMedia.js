@@ -11,19 +11,19 @@ export default function SocialMedia() {
     <div className='div__social__media'>
     <button
     type='button'
-    onClick={() =>  window.location.replace(instagram)}  
+    onClick={() =>  window.open(instagram, '__blank')}  
     >
     <AiOutlineInstagram className='social__icon'/>
     </button>
     <button
     type='button'
-    onClick={() =>  window.location.replace(linkedin)}  
+    onClick={() =>  window.open(linkedin, '__blank')}  
     >
     <AiOutlineLinkedin className='social__icon'/>
     </button>
     <button
     type='button'
-    onClick={() =>  window.location.replace(github)}  
+    onClick={() =>  window.open(github, '__blank')}  
     >
     <AiOutlineGithub className='social__icon'/>
     </button>

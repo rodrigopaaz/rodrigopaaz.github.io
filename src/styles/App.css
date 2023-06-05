@@ -298,7 +298,7 @@
   white-space: nowrap;
   width: 150px;
   animation: 
-    typing1 0.5s steps(40, end)backwards,
+    typing1 0.3s steps(40, end)backwards,
     blink-caret1 .75s forwards 0.1s;
 }
 
@@ -374,11 +374,11 @@
   overflow: hidden; 
   border-right: .15em solid rgb(255, 255, 255); 
   white-space: nowrap;
-  width: 260px;
+  width: 265px;
   font-size: 20px;
   animation: 
     typing 1s steps(30, end) 4.5s backwards,
-    blink-caret .75s step-end infinite alternate;
+    blink-caret .75s step-end forwards;
 }
 
 @keyframes typing {

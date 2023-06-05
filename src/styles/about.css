@@ -78,12 +78,13 @@
 }
 
 .div__about h5{
-    font-size: 2em;
+    font-size: 1.9vw;
+    font-weight: 900;
     margin-bottom: 60px;
 }
 
 .div__about p {
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: justify;
 }
 }
@@ -119,7 +120,7 @@
     }
     
     .div__about h5{
-        font-size: 80px;
+        font-size: 2vw;
         margin-bottom: 60px;
     }
     
