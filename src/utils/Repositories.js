@@ -15,7 +15,7 @@ const objectRepo = [{
         stacks: []
     },
     {
-        url: 'https://blue-store-project-as3i.vercel.app/main',
+        url: 'https://blue-store-project-as3i-gla7jnwr1-rodrigopaaz.vercel.app/main',
         github: 'https://github.com/rodrigopaaz/blue-store-project',
         image: blueStore,
         descricao: 'Blue Store',
